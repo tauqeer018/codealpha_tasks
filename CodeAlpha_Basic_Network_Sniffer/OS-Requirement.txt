@@ -1,0 +1,28 @@
+Environment Setup & OS Requirements
+
+1. For Kali Linux (Recommended)
+Kali Linux has built-in support for packet sniffing. No extra drivers are needed.
+
+Step 1: Open your terminal and install the Scapy library:
+pip install scapy  (run this command)
+
+Step 2: Run the script using sudo (Root privileges are mandatory for sniffing):
+sudo python3 sniffer.py  (run this command)
+
+
+2. For Windows (Alternative)
+Windows requires a specific driver to allow Python to access the network hardware directly.
+
+Step 1: Install Npcap from npcap.com.
+Important: During installation, you must check the box that says "Install Npcap in WinPcap API-compatible Mode".
+
+Step 2: Install the Scapy library via PowerShell:
+pip install scapy  (run this command)
+
+Step 3: Open PowerShell or Command Prompt as Administrator and run:
+python sniffer.py  (run this command)
+
+
+Key Difference:
+Kali Linux: Uses libpcap (built-in).
+Windows: Uses Npcap (must be installed manually). Without Npcap, you will get a RuntimeError: winpcap is not installed.

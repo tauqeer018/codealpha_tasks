@@ -13,7 +13,6 @@ def process_packet(packet):
         if proto == 6: protocol_name = "TCP"
         elif proto == 17: protocol_name = "UDP"
         elif proto == 1: protocol_name = "ICMP"
-
         # Formatting for the file 
         output = (
             f"\n" + "="*50 +
@@ -25,23 +24,19 @@ def process_packet(packet):
             payload = packet[Raw].load
             output += f"\n[*] PAYLOAD        : {payload}"
         output += f"\n" + "="*50 + "\n"
-
         # Terminal par display nahi hoga, sirf file mein save hoga [cite: 51]
         with open(LOG_FILE, "a") as f:
             f.write(output)
-
 def main():
     print("--- CodeAlpha Basic Network Sniffer ---")
     print(f"[*] Saving captured info in: {LOG_FILE}")
     print("[*] Terminal output is HIDDEN. Monitoring traffic... [cite: 24, 42]")
     print("[*] Press Ctrl+C to stop and save the tool session.")
-
     try:
         # Packet capturing start [cite: 23, 25]
-        sniff(prn=process_packet, store=0)
+        sniff(iface="lo", prn=process_packet, store=0, lfilter=lambda pkt: pkt.haslayer(Raw))
     except KeyboardInterrupt:
         print(f"\n[!] Sniffer stopped. All packets have been saved to {LOG_FILE}")
         sys.exit()
-
 if __name__ == "__main__":
     main()

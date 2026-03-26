@@ -1,4 +1,9 @@
-# CodeAlpha Cybersecurity Internship Projects 🛡️
+# 🛡️ CodeAlpha Cybersecurity Internship Projects
+### Repository for Internship Tasks and Security Tools
+
+![Cybersecurity](https://img.shields.io/badge/Domain-Cybersecurity-red)
+![Internship](https://img.shields.io/badge/Internship-CodeAlpha-blue)
+![OS](https://img.shields.io/badge/OS-Kali%20%7C%20Windows-lightgrey)
 
 This repository contains the projects and tasks I am completing during my Cybersecurity internship at **CodeAlpha**. My goal is to build and test practical security tools in a Linux environment.
 
@@ -9,7 +14,7 @@ This repository serves as a central hub for my internship work. Every project is
 
 ## 📂 Internship Tasks (Total: 3)
 
-### 1. Basic Network Sniffer (Task 1) -  Completed
+### 1. Basic Network Sniffer (Task 1) - ✅ Completed
 * **Description:** A Python-based tool that monitors and tracks real-time data moving across a network.
 * **Key Features:**
     * Captures and analyzes TCP, UDP, and ICMP network traffic.
@@ -17,7 +22,7 @@ This repository serves as a central hub for my internship work. Every project is
     * Automatically logs all captured data to `captured_packets.log`.
     * Developed using the **Scapy** library.
 
-### 2. Phishing Awareness Training & Interactive Assessment (Task 2) -  Completed
+### 2. Phishing Awareness Training & Interactive Assessment (Task 2) - ✅ Completed
 * **Description:** An interactive module designed to educate users on phishing threats through a high-fidelity presentation and a live timed quiz.
 * **Key Features:**
     * **Cyberpunk-Themed UI:** High-quality visual slides with Neon Cyan/Pink themes for an engaging user experience.
@@ -37,7 +42,8 @@ This repository serves as a central hub for my internship work. Every project is
 * **Hardware:** Optimized for Infinix Note 30 testing environments.
 
 ## 👤 About the Author
-**Muhammad Tauqeer Ul Hassan** **Student ID:** BCS241100  
+**Muhammad Tauqeer Ul Hassan**  
+**Student ID:** `BCS241100`  
 **University:** Capital University of Science and Technology (CUST)  
 **Role:** Cybersecurity Intern at CodeAlpha
 

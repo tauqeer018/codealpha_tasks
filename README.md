@@ -5,33 +5,41 @@ This repository contains the projects and tasks I am completing during my Cybers
 ## 📌 Project Overview
 This repository serves as a central hub for my internship work. Every project is developed and tested using **Kali Linux** running on **VirtualBox**.
 
+---
+
 ## 📂 Internship Tasks (Total: 3)
 
-### 1. Basic Network Sniffer (Task 1) - [Completed]
-* **What it does:** This tool monitors and tracks data moving across a network in real-time.
+### 1. Basic Network Sniffer (Task 1) -  Completed
+* **Description:** A Python-based tool that monitors and tracks real-time data moving across a network.
 * **Key Features:**
-    * It "listens" for different types of network traffic (TCP, UDP, and ICMP).
-    * It automatically identifies where the data is coming from (Source) and where it is going (Destination).
-    * It saves all captured information into a text file called `captured_packets.log` for later review.
-    * Built using Python and the Scapy library.
+    * Captures and analyzes TCP, UDP, and ICMP network traffic.
+    * Extracts Source/Destination IP addresses and protocols.
+    * Automatically logs all captured data to `captured_packets.log`.
+    * Developed using the **Scapy** library.
 
-### 2. [Second Task Name] - [In Progress]
-* **Goal:** This project focuses on [Insert simple goal of Task 2 here].
-* **Status:** Currently being developed and tested.
+### 2. Phishing Awareness Training & Interactive Assessment (Task 2) -  Completed
+* **Description:** An interactive module designed to educate users on phishing threats through a high-fidelity presentation and a live timed quiz.
+* **Key Features:**
+    * **Cyberpunk-Themed UI:** High-quality visual slides with Neon Cyan/Pink themes for an engaging user experience.
+    * **Live Assessment:** Integrated Google Form accessible via a custom-designed, neon-styled QR code.
+    * **Automated Timer:** A custom Google Apps Script (JavaScript) backend to enforce a strict 10-minute submission window.
+    * **Security Logic:** Randomized questions and single-response locks to maintain assessment integrity.
 
-### 3. [Third Task Name] - [Upcoming]
-* **Goal:** This project will cover [Insert simple goal of Task 3 here].
-* **Status:** Planned for later in the internship.
-
-## 🛠️ Environment & Tools
-* **Main Computer:** Windows 11
-* **Testing System:** Kali Linux (Virtual Machine)
-* **Programming Language:** Python 3.x
-* **Terminal:** Custom ZSH (Personalized "Mughal-Tauqeer" interface)
-
-## 👤 About the Author
-**Muhammad Tauqeer Ul Hassan** **University:** Capital University of Science and Technology (CUST)  
-**Track:** Cybersecurity Intern at CodeAlpha
+### 3. [Upcoming Task] - 🕒 Planned
+* **Goal:** Details for the third task will be updated soon upon assignment.
 
 ---
-*Note: These projects are created for educational purposes and ethical use only.*
+
+## 🛠️ Environment & Tools
+* **OS:** Windows 11 (Host) / Kali Linux (VirtualBox)
+* **Languages:** Python 3.x, JavaScript (Google Apps Script)
+* **Terminal:** Custom ZSH with personalized "Mughal-Tauqeer" interface.
+* **Hardware:** Optimized for Infinix Note 30 testing environments.
+
+## 👤 About the Author
+**Muhammad Tauqeer Ul Hassan** **Student ID:** BCS241100  
+**University:** Capital University of Science and Technology (CUST)  
+**Role:** Cybersecurity Intern at CodeAlpha
+
+---
+*Disclaimer: These projects are intended for educational purposes and ethical use only.*
